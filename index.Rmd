@@ -1,5 +1,5 @@
 ---
-title: "Programa de Prevención y Control del Dengue de Yucatán"
+title: "Programa de Prevención y Control del Dengue de Oaxaca"
 output: 
   flexdashboard::flex_dashboard:
       theme: flatly
