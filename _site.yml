@@ -1,0 +1,4 @@
+runtime: shiny
+logo: images/cover.jpg
+name: "denv_dash_oax"
+output_dir: docs
