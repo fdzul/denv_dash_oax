@@ -1588,5 +1588,23 @@ eggs_hotspots_intensity_map_year(betas = betas_20073_putla_villa_1419_zinb1,
                                  palette = rcartocolor::carto_pal,
                                  name = "SunsetDark")
 ```
+### **<span style="color:#990000">Heroica Ciudad de Juchitan de Zaragoza</span>**
+```{r vector_hotspots_juchitan, dpi = 300, warning=FALSE, message=FALSE}
+deneggs::eggs_hotspots_intensity_map(spde_betas = betas_20043_juchitan_1419_zinb1,
+                                     years = 2022,
+                                     locality = "Heroica Ciudad de Juchitan de Zaragoza",
+                                     cve_ent = "20",
+                                     palette = rcartocolor::carto_pal,
+                                     name = "SunsetDark") 
+```
+
+### **<span style="color:#990000">San Juan Bautista Valle Nacional</span>**
+```{r vector_hotspots_san_juan_bautista_nacional, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_20559_san_juan_bautista_nacional_1419_zinb1,
+                                 locality = "San Juan Bautista Valle Nacional",
+                                 cve_ent = "20",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
 
 
